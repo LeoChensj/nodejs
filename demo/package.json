@@ -1,0 +1,16 @@
+{
+  "name": "express_demo",
+  "version": "1.0.0",
+  "description": "just a demo.",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Leo.Chen",
+  "license": "MIT",
+  "dependencies" : {
+    "async" : "0.1.x",
+    "express" : "3.x"
+  }
+}
