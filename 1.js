@@ -1,7 +1,6 @@
-//http
-
-
 var http = require('http');
+
+
 http.createServer(function (request, response){
 
 	if(request.uri!=='/favicon.ico'){//清除二次访问
@@ -10,6 +9,6 @@ http.createServer(function (request, response){
 	response.end('Hello World!');
 	}
 
-}).listen(2017);
+}).listen(8080);
 
-console.log('Server running at http://127.0.0.1:2017');
+console.log('Server running');
