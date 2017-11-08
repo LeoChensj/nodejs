@@ -7,6 +7,7 @@ router.user(app);
 
 app.post('/update_user', function (req, res) {
    console.log("/list_user GET 请求");
+
    res.send('更新用户信息');
 })
 
